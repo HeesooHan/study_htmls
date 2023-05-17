@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - FORMS</title>
+</head>
+<body>
+    <form action="../index.html">
+        </div>
+        <div>
+            <label for="idfirstname">First name</label>
+            <input type="firstname" name="firstname" id="idfirstname" value="Heesoo">
+        </div>
+        <p></p>
+        <div>
+            <label for="idlastname">Last name</label>
+            <input type="lastname" name="lastname" id="idlastname" value="Han">
+        </div>
+        <p></p>
+        <div>
+            <label for="idusername">Username</label>
+            <input type="username" name="username" id="idusername" placeholder="Username">
+        </div>
+        <p></p>
+        <div>
+            <label for="idemail">Email (Optional)</label>
+            <input type="email" name="email" id="idemail" placeholder="you@example.com">
+        </div>
+        <p></p>
+        <div>
+            <label for="idaddress">Address</label>
+            <input type="address" name="address" id="idaddress" placeholder="1234 Main St">
+        </div>
+        <p></p>
+        <div>
+            <label for="idaddress2">Address 2 (Optional)</label>
+            <input type="address2" name="address2" id="idaddress2" placeholder="Apartment or suite">
+        </div>
+        <p></p>
+        <div>
+            <label for="country">Country</label>
+
+            <select name="country" id="country">
+                <option value="" selected>Choose...</option>
+                <option value="united">United</option>
+                <option value="korea">Korea</option>
+                <option value="germany">Germany</option>
+                <option value="italy">Italy</option>
+                <option value="australia">Australia</option>
+            </select>
+        </div>
+        <p></p>
+        <div>
+            <label for="state">State</label>
+
+            <select name="state" id="state">
+                <option value="" selected>Choose...</option>
+                <option value="newyork">New York</option>
+                <option value="seoul">Seoul</option>
+                <option value="berlin">Berlin</option>
+                <option value="rome">Rome</option>
+                <option value="nsw">NSW</option>
+            </select>
+        </div>
+        <p></p>
+        <div>
+            <label for="idzip">Zip</label>
+            <input type="zip" name="zip" id="idzip" value="12345">
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox" name="shippingaddress"> Shipping address is the same as my billing address
+        </div>
+        <div>
+            <input type="checkbox" name="savethis"> Save this information for next time
+        </div>
+        <hr>
+        <p></p>
+        <h2>Payment</h2>
+        <div>
+            <input type="radio" name="payment" value="creditcard" id="" checked> Credit card
+        </div>
+        <div>
+            <input type="radio" name="payment" value="debitcard" id=""> Debit card
+        </div>
+        <div>
+            <input type="radio" name="payment" value="paypal" id=""> Paypal
+        </div>
+        <p></p>
+        <div>
+            <label for="idnameon">Name on card</label>
+            <input type="nameon" name="nameon" id="idnameon" value="Heesoo Han">
+        </div>
+        <div>
+            <label for="idcreditcardnumber">Credit card number</label>
+            <input type="creditcard" name="creditcardnumber" id="idcreditcardnumber" value="1234-5678-9012-3456">
+        </div>
+        <div>
+            Expiration <input type="date" name="expiration" id="">
+        </div>
+        <div>
+            <label for="idcvv">CVV</label>
+            <input type="cvv" name="cvv" id="idcvv" value="888">
+        </div>
+        <hr>
+        <div>
+            <button type="submit">Continue to checkout</button>
+        </div>
+    </form>
+</body>
+</html>
